@@ -1,0 +1,253 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300;400;700&display=swap');
+
+body{
+	font-family: 'Roboto Slab', serif;
+}
+
+/* 
+	Author: Md Shafiul Islam Khan;
+	Mail: Shafiul570@gmail.com;
+	Website: ..........;
+
+*/
+
+/* 
+	====Index====
+	1.Header
+	2.Fusce at
+	3.Facilisis
+	4.Ante donec
+	5.Blandit rhoncus
+	6.Placerat
+	7.Footer
+ */
+
+/* Global Css */
+*{
+	margin: 0px;
+	padding: 0px;
+}
+h4{
+	font-size: 30px;
+	color: #fff;
+	margin: 15px 0px;
+}
+h5{
+	font-size: 30px;
+	color: #31353e;
+	font-weight: bold;
+	margin-top: 40px;
+}
+h6{
+	font-size: 15px;
+	color: #fff;
+}
+p{
+	font-size: 15px;
+	color: #161616;	
+}
+.hero-btn{
+	display: block;
+    background-color: #fff;
+    border: none;
+    padding: 18px 50px;
+    margin: 60px auto;
+    border-radius: 30px;
+    color: #612316;
+}
+.news-btn{
+	display: block;
+    background-color: #fff;
+    border: none;
+    padding: 18px 50px;
+    margin: 60px auto;
+    border-radius: 30px;
+    color: #612316;
+
+}
+/* Theme css */
+/* Header css */
+
+header{
+
+}
+.nav-head{
+	padding: 30px 0px;
+	background-color: #edeff1;
+}
+.nav-link{
+	color: #31353e;
+	margin: 0px 10px;
+}
+.nav-link.js-scroll-trigger.active{
+	background-color: #dd4b2b;
+	color: #fff;
+	border-radius: 50px;
+	padding: 5px 10px;
+}
+/* Hero css */
+.hero{
+	width: 100%;
+	float: left;
+	padding: 25px 0px;
+	background: url(../img/banner.jpg) no-repeat;
+	background-size: cover;
+	background-position: center top;
+}
+.hero-main{
+	padding-top: 400px;
+	padding-bottom: 30px;
+	text-align: center
+}
+.hero-main h2{
+	font-size: 72px;
+    color: #fff;
+}
+.hero-main h3{
+	color: #fff;
+	font-size: 30px;
+}
+.food-one{
+	margin: 0 auto;
+	text-align: center;
+}
+/* Facilisis css */
+.sec-two{
+	width: 100%;
+	float: left;
+	padding: 25px 0px;
+	background-color: #edeff1;
+}
+.sec-two-header{
+	text-align: center;
+	margin: 55px 0px;
+}
+.sec-two-header h2{
+	color: #31353e;
+	font-weight: bold;
+}
+.food-two{
+	margin: 0 auto;
+	text-align: center;
+
+}
+/* Newsletter css */
+.newsletter{
+	width: 100%;
+	float: left;
+	padding: 60px 0px;
+	background: url(../img/bg.jpg) no-repeat;
+	background-size: cover;
+	background-position: center top;
+}
+.newsletter-main{
+	text-align: center;
+	margin: 30px 0px;
+}
+.contact{
+	text-align: center;
+    padding-bottom: 50px;
+}
+.form-control{
+	background: #ffffff66;
+    border-radius: 30px;
+    position: relative;
+
+}
+.submit-btn{
+    background-color: #fff;
+    border: none;
+    padding: 7px 30px;
+    border-radius: 30px;
+    color: #612316;
+    position: absolute;
+    right: 15px;
+    top: 0;
+}
+::-webkit-input-placeholder{
+	color: #ffff!important;
+}
+/* Portfolio css */
+.portfolio{
+	width: 100%;
+	float: left;
+	padding: 60px 0px;
+}
+.btn-one{
+	display: block;
+    background-color: #fff;
+    border: none;
+    padding: 10px 30px;
+    border-radius: 30px;
+    color: #ffff;
+    background-color: #dd4b2b;
+}
+.btn-two{
+	display: block;
+    background-color: #fff;
+    border: none;
+    padding: 10px 30px;
+    border-radius: 30px;
+    color: #ffff;
+    background-color: #4b4e73;
+}
+/* Ending section */
+.ending{
+	width: 100%;
+	float: left;
+	background-color: #d75d0e;
+	padding: 100px 0px;
+	text-align: center;
+}
+
+.ending ul{
+	list-style: none;
+}
+.ending ul li{
+	color: #fff;
+
+}
+/* Footer css */
+footer{
+	width: 100%;
+	float: left;
+	padding: 25px 0px;
+	background: url(../img/bg.jpg) no-repeat;
+	background-size: cover;
+	background-position: center top;
+}
+.footer-main{
+	margin-top: 70px;
+	margin-bottom: 150px;
+}
+.footer-main h3{
+	font-size: 18px;
+	color: #fff;
+}
+/* Responsive platform */
+
+/* Mobile responsive */
+@media(min-width: 320px) and (max-width: 576px){
+	.hero-main h2{
+		font-size: 30px;
+		margin-top: -60px;
+
+	}
+	.hero-main h3 {
+    /* color: #fff; */
+    font-size: 20px;
+	}
+	img.img-fluid.img-center {
+    margin-bottom: 20px;
+	}
+	.btn-one {
+   		margin-bottom: 20px;
+	}
+	a.navbar-brand.js-scroll-trigger {
+    	margin: 0 auto;
+	}
+}
+/* Small device */
+@media(min-width: 576.01px) and (max-width: 768px){
+
+}
